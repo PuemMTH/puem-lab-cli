@@ -1,0 +1,24 @@
+{
+  "name": "puem-lab",
+  "version": "1.0.2",
+  "description": "npm created for blogger pattern",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "local": "npm run build && npm link"
+  },
+  "bin": {
+    "puem": "dist/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
